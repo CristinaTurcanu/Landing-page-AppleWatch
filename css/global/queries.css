@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1260px) {
+	.part-1 img{
+		height: 300px;
+	}
+	.part-3 img{
+		width: 300px;
+		height: 500px;
+	}
+}
+@media only screen and (max-width: 1105px) {
+	.container{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.part-4 .container{
+		width: 300px;
+		top: 20%;
+		right: 5%;
+	}
+}
+@media only screen and (max-width: 909px){
+	.container {
+		width: 94%;
+		margin: 0 auto;
+	}
+	.part-1 .container{
+		padding: 60px 0 100px 0;
+	}
+	.part-1 img{
+		z-index: -1;
+	}
+	.part-2 img{
+		width: 250px;
+		height: auto;
+	}
+	.title{
+		font-size: 25px;
+	}
+	.text{
+		width: 50%;
+	}
+	.props{
+		flex-direction: column;
+	}
+	.prop-1,
+	.prop-2,
+	.prop-3{
+		width: 100%;
+		padding-top: 20px;
+}
+	.part-3 .container {
+		padding: 10px 0;
+	}
+	.part-4 .text{
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 600px){
+	.part-1 .container,
+	.part-2 .container,
+	.part-3 .container,
+	.part-4 .container {
+		padding: 10px;
+	}
+
+	.part-1 img,
+	.part-3 img{
+		display: none;
+	}
+	.part-1 p,
+	.part-2 p,
+	.part-3 p,
+	.part-4 p{
+		width: 90%;
+	}
+	.part-1 p,
+	.part-2 p,
+	.part-3 p{
+		padding-bottom: 10px;
+	}
+}

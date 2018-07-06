@@ -1,0 +1,28 @@
+nav{
+	margin-top: 0;
+	padding-top: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+.nav-wrapper{
+	width: 66%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+ul{
+	display: flex;
+	justify-content: space-between;
+	font-size: 15px;
+	font-weight: 300;
+}
+li a {
+	color: #adabac;
+	font-size: 15px;
+	margin-right: 33px;
+}
+input[type="search"]{
+	width: 152px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #b2b2b3;
+}

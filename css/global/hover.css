@@ -1,0 +1,10 @@
+li a:hover{
+	color: #333;
+	border-bottom: 1px solid #333;
+}
+.prop-3 a:hover:before{
+	width: 37px;
+}
+.btn:hover{
+	box-shadow: 1px 1px 2px 0px rgb(92, 91, 91);
+}

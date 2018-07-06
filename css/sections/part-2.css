@@ -1,0 +1,45 @@
+.props {
+	display: flex;
+	flex: row wrap;
+	padding-top: 40px;
+}
+.prop-1,
+.prop-2{
+	padding-right: 50px;
+}
+h3 {
+	font-size: 17px;
+	color: #333;
+	text-transform: uppercase;
+}
+p {
+	padding-top: 45px;
+	color: #222;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.square{
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.prop-3 a{
+	color: #ea625c;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	cursor: pointer;
+}
+.prop-3 a:before{
+	content: '';
+	width: 27px;
+	height: 2px;
+	display: inline-block;
+	background-color: #ea625c;
+	margin-right: 10px;
+	margin-bottom: 1%;
+}

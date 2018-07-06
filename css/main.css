@@ -1,0 +1,15 @@
+@import 'global/base.css';
+@import 'global/button.css';
+@import 'global/title.css';
+@import 'global/text.css';
+@import 'global/queries.css';
+@import 'global/hover.css';
+
+
+
+@import 'sections/nav.css';
+@import 'sections/part-1.css';
+@import 'sections/part-2.css';
+@import 'sections/part-3.css';
+@import 'sections/part-4.css';
+
